@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY CENTER FIX */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #2f3437;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+
+/* MAIN CARD */
+.container {
+    background: #1e2428;
+    width: 650px;
+    padding: 50px;
+    border-radius: 16px;
+    text-align: center;
+
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+}
+
+/* TITLE */
+h1 {
+    font-size: 38px;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+/* FILE INPUT */
+input[type="file"] {
+    width: 100%;
+    padding: 18px;
+    font-size: 20px;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    background: #121618;
+    color: white;
+    cursor: pointer;
+}
+
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 18px;
+    margin-top: 25px;
+    font-size: 22px;
+    background: #4caf50;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #66bb6a;
+}
+
+/* RESULT */
+#result {
+    margin-top: 35px;
+    padding: 25px;
+    border-radius: 12px;
+    background: #a974ef;
+    color: white;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #cccccc;
+}
