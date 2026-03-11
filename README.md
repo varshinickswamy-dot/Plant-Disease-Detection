@@ -102,7 +102,7 @@ Plant-Disease-Detection
 └── README.md
 6. How to Run the Project
 Step 1 — Clone the repository
-git clone https://github.com/yourusername/plant-disease-detection.git
+git clone https://github.com/varshinickswamy-dot/Plant-Disease-Detection
 Step 2 — Navigate to project folder
 cd plant-disease-detection
 Step 3 — Install required libraries
